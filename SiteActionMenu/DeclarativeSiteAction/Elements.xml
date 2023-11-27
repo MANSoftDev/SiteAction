@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="MANSoftDev_SiteAction"
+    GroupId="SiteActions"
+    Sequence="1"
+    Location="Microsoft.SharePoint.StandardMenu"
+    ControlAssembly="MANSoftDev.SiteAction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e15c7b1150d656d"
+    ControlClass="MANSoftDev.SiteAction.SiteActionDeclarative">
+  </CustomAction>
+
+  <CustomAction
+    Id="subMenu"
+    Title="SubMenu"
+    Description="A submenu item"
+    ImageUrl="/_layouts/images/settingsIcon.png"
+    Location="MANSoftDev.CustomMenu"
+    GroupId="MANSoftDev_Sub1"
+    Sequence="100" >
+  </CustomAction>
+
+  <CustomAction
+    Id="subMenu"
+    Title="SubMenu"
+    Description="A submenu item"
+    ImageUrl="/_layouts/images/settingsIcon.png"
+    Location="MANSoftDev.CustomMenu"
+    GroupId="MANSoftDev_Sub2"
+    Sequence="100" >
+  </CustomAction>
+  
+</Elements>

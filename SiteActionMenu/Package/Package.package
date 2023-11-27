@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b749c89f-9a07-482c-8f4e-95d70520df0c" solutionId="b749c89f-9a07-482c-8f4e-95d70520df0c" resetWebServer="false" name="SiteAction" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="MANSoftDev.SiteAction.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\SiteAction\SiteAction.csproj">
+      <safeControls>
+        <safeControl assemblyName="MANSoftDev.SiteAction" namespaceName="MANSoftDev.SiteAction" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="e7364689-e7ea-42bf-94d1-60c340087ca5" />
+  </features>
+</package>
